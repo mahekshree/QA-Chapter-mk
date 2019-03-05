@@ -1,0 +1,22 @@
+#ignoring files
+
+#intellij files
+*.iml
+.idea/
+
+#maven
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Mac
+.DS_Store
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
