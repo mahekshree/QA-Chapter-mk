@@ -1,4 +1,4 @@
-package com.pune.Qachapter.Bdd.hrportal;
+package EmployeeDetails;
 
 public class UserDetails {
 

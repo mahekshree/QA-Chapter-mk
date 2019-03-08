@@ -1,16 +1,16 @@
-package com.pune.Qachapter.Bdd.hrportal;
+package com.pune.Qachapter.Bdd.hrportal.DefSteps;
 
 import net.serenitybdd.jbehave.SerenityJBehaveTestRunner;
-import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
+import org.jbehave.core.steps.Steps;
 import org.junit.runner.RunWith;
 
 @RunWith(SerenityJBehaveTestRunner.class)
 
-public class GivenSteps {
+public class GivenSteps extends Steps {
 
 
-    @Given(" user has valid username and password")
+    @Given("user has valid username and password")
     public void userHasValidUsernameAndPassword() {
 
     }
@@ -36,7 +36,7 @@ public class GivenSteps {
 
     }
 
-    @Given(" user is an employee of the company")
+    @Given("user is an employee of the company")
     public void  userIsAnEmployeeOfTheCompany() {
 
     }
